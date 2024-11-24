@@ -1,0 +1,128 @@
+/* Logistics Customer Page */
+
+.logistics-customer-page {
+  font-family: sans-serif;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background: linear-gradient(45deg, #5921f3, #007bff); /* Primary color gradient */
+  color: #000000; /* Text color: White */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .logistics-customer-page {
+    margin: 10px;
+    padding: 20px 10px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000; /* Text color: White */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add Logistics */
+
+.add-logistics {
+  margin-top: 20px;
+  background-color: #f2f2f2; /* Secondary color: Light gray */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-logistics h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2196f3; /* Primary color text */
+}
+
+.add-logistics form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.add-logistics label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2196f3; /* Primary color text */
+}
+
+.add-logistics select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Text color: White */
+}
+
+.add-logistics button {
+  margin-top: 2%;
+  padding: 5px 10px;
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* Text color: White */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logistics List */
+
+.logistics-list {
+  margin-top: 20px;
+  background-color: #f2f2f2; /* Secondary color: Light gray */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logistics-list h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2196f3; /* Primary color text */
+}
+
+.logistics-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #333; /* Text color: Dark gray */
+}
+
+th {
+  font-weight: bold;
+  background-color: #f2f2f2; /* Secondary color: Light gray */
+  color: #333; /* Text color: Dark gray */
+}
+
+tr:nth-child(even) {
+  background-color: #fff; /* Alternate row color: White */
+}
+
+@media (max-width: 768px) {
+  .logistics-customer-page,
+  .add-logistics,
+  .logistics-list {
+    padding: 10px;
+  }
+
+  .logistics-list table {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling for small screens */
+  }
+}

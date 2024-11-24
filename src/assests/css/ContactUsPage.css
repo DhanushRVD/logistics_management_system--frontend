@@ -1,0 +1,105 @@
+/* Contact Us Page */
+
+.contact-us-page {
+  font-family: sans-serif;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background-color: #000000;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.contact-information {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.contact-information p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.feedback-form {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.feedback-form h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.feedback-form form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.feedback-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.feedback-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.feedback-form p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Responsive design for smaller screens */
+
+@media (max-width: 768px) {
+  .contact-us-page {
+    margin: 10px;
+    padding: 20px 10px;
+  }
+
+  .contact-information,
+  .feedback-form {
+    padding: 10px;
+  }
+
+  .feedback-form textarea {
+    height: 80px;
+  }
+}

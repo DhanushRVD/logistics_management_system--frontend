@@ -1,0 +1,83 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../img/bbg.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.signup-title {
+  font-size: 24px;
+  color: #8ec7ee;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.845);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form label {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.signup-form button {
+  margin: 10px 0;
+  margin-left: 25%;
+  width: 50%;
+  padding: 10px;
+  background-color: #13a8e3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.signup-form button:hover {
+  background-color: #0d0190;
+}
+
+.signup-message {
+  margin: 10px 0;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.login-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link {
+  color: #00b944;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+.sicon{
+  color:#fff
+}
+.signup-link{
+  color: #fff;
+}

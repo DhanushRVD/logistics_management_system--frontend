@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+body {
+  margin: 0 auto;
+  border: none;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../img/background.png');
+  background-size: cover;
+}
+
+.login-box {
+  width: 400px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.358);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(46, 46, 46, 0.1);
+}
+
+.login-title {
+  font-family: 'Tinos', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.logform-group {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 2px;
+}
+
+.log-form-label {
+  font-family: 'Cardo', serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.icon {
+  color: #000000;
+}
+
+.form-control {
+  color: #000000;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-control:hover {
+  box-sizing: content-box;
+  border: 10px;
+}
+
+.select-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00b9d2;
+  border-radius: 5px;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button {
+  width: 50%;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0cc43aef;
+  color: #ffffff;
+}
+
+.login-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.loglink {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.loglink:hover {
+  text-decoration: underline;
+}
+
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.toast-success {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.toast-error {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.bubble img {
+  width: 50px;
+  animation: bubble 7s linear infinite;
+}
+
+.bubble {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0%;
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+.bubble img:nth-child(1) {
+  animation-delay: 2s;
+}
+
+.bubble img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.bubble img:nth-child(3) {
+  animation-delay: 3s;
+}
+
+.bubble img:nth-child(4) {
+  animation-delay: 4.5s;
+}
+
+.bubble img:nth-child(5) {
+  animation-delay: 3s;
+}
+
+.bubble img:nth-child(6) {
+  animation-delay: 6s;
+}
+
+.bubble img:nth-child(7) {
+  animation-delay: 7s;
+}
+
+@media (max-width: 768px) {
+  .login-box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-box {
+    padding: 20px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

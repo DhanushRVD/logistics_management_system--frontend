@@ -1,0 +1,352 @@
+/* LandingPage.css
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  text-align: center;
+}
+
+.header {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.header img {
+  max-width: 100px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar {
+
+  margin-top: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.hero {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height:100%;
+}
+
+.social-media-links {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+.social-media-links a {
+  color: #010101;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.transport-types {
+  display: flex;
+  height:40%;
+  width:30%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+}
+
+.transport-type {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.transport-type:hover {
+  background-color: #ddd;
+}
+
+.transport-type img {
+  max-width: 100%;
+  height: auto;
+}
+
+.transport-type.active {
+  background-color: #000000;
+  color: #fff;
+}
+
+.transport-type-details {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.transport-type-details img {
+  max-width: 40%;
+  height: 40%;
+}
+
+.tracking {
+  background-color: #000000;
+  color: #fff;
+  padding: 2rem;
+}
+
+.tracking h2 {
+  margin-bottom: 1rem;
+}
+
+.tracking-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracking-input label {
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.tracking-input input {
+  padding: 0.5rem;
+}
+
+.tracking-input button {
+  margin-left: 2%;
+  background-color:rgb(255, 145, 0);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-us {
+  background-color: #eee;
+  padding: 2rem;
+}
+
+.contact-us h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-us li {
+  margin: 0.5rem 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+} */
+
+
+/* LandingPage.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  text-align: center;
+}
+
+.header {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem;
+  
+}
+
+.header img {
+  max-width: 100px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar1 {
+  margin-top: 1rem;
+}
+
+.navbar1 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar1 li {
+  margin: 0 1rem;
+}
+
+.navbar1 a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.hero {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.social-media-links {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+.social-media-links a {
+  color: #010101;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.transport-types {
+  display: flex;
+  width:100%;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.transport-type {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.transport-type:hover {
+  background-color: #ddd;
+}
+
+.transport-type img {
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.transport-type.active {
+  background-color: #000000;
+  color: #fff;
+}
+
+.transport-type-details {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.transport-type-details img {
+  align-items: center;
+  max-width: 40%;
+  height: 40%;
+}
+
+.tracking {
+  background-color: #000000;
+  color: #fff;
+  padding: 2rem;
+}
+
+.tracking h2 {
+  margin-bottom: 1rem;
+}
+
+.tracking-input {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracking-input label {
+  margin-right: 1rem;
+  color: #ffffff;
+}
+
+.tracking-input input {
+  padding: 0.5rem;
+}
+
+.tracking-input button {
+  margin-left: 2%;
+  background-color: rgb(255, 145, 0);
+  color: #050505;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-us {
+  background-color: #eee;
+  padding: 2rem;
+}
+
+.contact-us h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-us li {
+  margin: 0.5rem 0;
+}
+
+.footer1 {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
